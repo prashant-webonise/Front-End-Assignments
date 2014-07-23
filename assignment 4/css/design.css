@@ -1,0 +1,152 @@
+/* 
+    Created on : 23 Jul, 2014, 12:28:39 PM
+    Author     : Prashant
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Myriad Pro;
+    font-size: 18px;
+}
+
+li{
+    display: inline;
+}
+
+.wrapper{
+    width: 940px;
+    margin: 0px auto;
+}
+
+.divider{
+    float: left;
+}
+
+.header{
+    height: 50px;
+    background: #444444;
+}
+
+.logo{
+    padding: 10px 60px 10px 10px;
+    float: left;
+}
+
+.navigation{
+    font-family: Myriad Pro;
+    font-size: 18px;
+    color: #aaaaaa;
+    float: left;
+    padding: 19px 30px 19px 25px;
+    line-height: 12px;
+
+}
+
+.insideNav{
+    float: left;
+}
+
+.headerRightMost{
+    float: right;
+}
+
+.banner{
+    background-image: url('../images/banner.jpg');
+    height: 486px;
+    background-repeat: repeat;
+}
+
+.bannerLeft{
+    //padding-left: 30px;
+    width: 470px;
+    float: left;
+}
+
+p{
+    padding-top: 185px;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.bannerRight{
+    width: 470px;
+    float: left;
+}
+
+h1{
+    padding-top: 185px;
+    font-size: 48px;
+    color: #ffffff;
+    float: left;
+}
+
+h3{
+    padding-top: 25px;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: normal;
+    float: left;
+    padding-bottom: 50px;
+}
+
+button{
+    
+    width: 170px;
+    height: 50px;
+    margin-right: 20px;
+    font-family: SourceSansPro;
+    font-size: 20px;
+    float: left;
+    border-radius: 3px;
+}
+
+.firstButon{
+    background: #f2f2f2;
+}
+
+.secondButon{
+    background: #ff9900;
+}
+
+.poster{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.bodyHeader{
+    padding-top: 65px;
+    font-size: 30px;
+    color: #444444;
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+.circleSet{
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    float: left;
+    padding-left: 60px;
+    text-align: center;
+    
+}
+
+.circleSetLast{
+    clear: right;
+}
+
+.circles{
+    
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background: #efefef;
+}
+
+.bodyImg{
+    padding: 50px 40px;
+}
