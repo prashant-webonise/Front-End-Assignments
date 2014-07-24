@@ -9,7 +9,7 @@
 }
 
 body{
-    font-family: 'Source Sans Pro', 'sans-serif';
+    font-family: 'Source Sans Pro', 'sans-serif', Arial, Helvetica, Georgia;
     font-size: 18px;
 }
 
@@ -32,8 +32,11 @@ body{
 
 a{
     text-decoration: none;
-    //color: black;
     display: block;
+}
+
+.header .wrapper #logoLink{
+    float: left;
 }
 
 li{
@@ -55,14 +58,17 @@ li{
 }
 
 .logo{
-    padding: 10px 55px 10px 10px;
+    padding: 10px 55px 8px 10px;
     float: left;
+    border-right: 1px solid #333333;
 }
 
 .navigation{
     font-size: 18px;
     float: left;
-    padding: 15px 30px 15px 25px;
+    padding: 0px 30px 0px 25px;
+    border-right: 1px solid #333333;
+    line-height: 50px;
 }
 
 .navigation a{
@@ -77,9 +83,13 @@ li{
     float: right;
 }
 
+.middle{
+    text-align: center;
+}
 .banner{
     background-image: url('../images/banner.jpg');
     background-repeat: repeat;
+    height: 485px;
 }
 
 .bannerLeft{
@@ -87,11 +97,6 @@ li{
     float: left;
 }
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 613a40286426dd3416b1419505f27986b56ff5df
 .bannerRight{
     width: 470px;
     float: left;
@@ -141,21 +146,25 @@ h3{
 }
 
 .bodyHeader{
-    margin-top: 65px;
     font-size: 30px;
     color: #444444;
     text-align: center;
-    margin-bottom: 75px;
+    padding-bottom: 75px;
+    padding-top: 65px;
+}
+
+#bodyImages{
+    margin-left: 23px;
+    margin-right: 23px;
 }
 
 .circleSet{
-    color: #888888;
-    margin-left: auto;
-    margin-right: auto;
-    width: 140px;
-    float: left;
-    padding-left: 60px;
-    text-align: center;
+   color: #888888;
+   padding-left: 37px;
+   padding-right: 37px;
+   width: 140px;
+   float: left;
+   text-align: center;
 }
 
 .circleSet a{
@@ -175,9 +184,8 @@ h3{
 }
 
 .bodyImg{
-    padding: 50px 40px;
+    padding: 45px 40px;
 }
-<<<<<<< HEAD
 
 #bodyEnd{
      height: 115px;
@@ -188,12 +196,16 @@ h3{
     background: #ececec;
 }
 
-.footerNavigation a{
+.footerNavigation{
     font-size: 16px;
     color: #ff8000;
     float: left;
     margin-top: 30px;
     margin-right: 17px;
+}
+
+.footerNavigation a{
+    color: #ff8000;
 }
 
 #footerHome{
@@ -213,16 +225,19 @@ h3{
 
 .lowerFooter ul li{
     float: left;
-    padding: 0px 10px;
+    margin-left: 12px;
 }
 
 .lowerFooter ul li a{
     color: #aaaaaa;
 }
 
+.lastLine{
+    padding-right: 12px;
+    border-right: 1px solid #aaaaaa;
+}
+
 #copyRight{
     padding-right: 64px;
-    padding-left: 0px;
+    margin-left: 0px;
 }
-=======
->>>>>>> 613a40286426dd3416b1419505f27986b56ff5df
