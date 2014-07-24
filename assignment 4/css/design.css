@@ -87,6 +87,11 @@ li{
     float: left;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 613a40286426dd3416b1419505f27986b56ff5df
 .bannerRight{
     width: 470px;
     float: left;
@@ -172,6 +177,7 @@ h3{
 .bodyImg{
     padding: 50px 40px;
 }
+<<<<<<< HEAD
 
 #bodyEnd{
      height: 115px;
@@ -218,3 +224,5 @@ h3{
     padding-right: 64px;
     padding-left: 0px;
 }
+=======
+>>>>>>> 613a40286426dd3416b1419505f27986b56ff5df
