@@ -9,12 +9,35 @@
 }
 
 body{
-    font-family: Myriad Pro;
+    font-family: 'Source Sans Pro', 'sans-serif';
     font-size: 18px;
 }
 
+@font-face 
+{
+        font-family: "Source Sans Pro";
+        src: url('../fonts/888244629-SourceSansPro-Regular.eot');
+        src: url('../fonts/888244629-SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/888244629-SourceSansPro-Regular.svg#Source Sans Pro') format('svg'),
+        url('../fonts/888244629-SourceSansPro-Regular.woff') format('woff'),
+        url('../fonts/888244629-SourceSansPro-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+
+.clear{
+    clear: both;
+    float: none;
+}
+
+a{
+    text-decoration: none;
+    //color: black;
+    display: block;
+}
+
 li{
-    display: inline;
+    list-style: none;
 }
 
 .wrapper{
@@ -32,18 +55,18 @@ li{
 }
 
 .logo{
-    padding: 10px 60px 10px 10px;
+    padding: 10px 55px 10px 10px;
     float: left;
 }
 
 .navigation{
-    font-family: Myriad Pro;
     font-size: 18px;
-    color: #aaaaaa;
     float: left;
-    padding: 19px 30px 19px 25px;
-    line-height: 12px;
+    padding: 15px 30px 15px 25px;
+}
 
+.navigation a{
+    color: #aaaaaa;
 }
 
 .insideNav{
@@ -56,20 +79,12 @@ li{
 
 .banner{
     background-image: url('../images/banner.jpg');
-    height: 486px;
     background-repeat: repeat;
 }
 
 .bannerLeft{
-    //padding-left: 30px;
     width: 470px;
     float: left;
-}
-
-p{
-    padding-top: 185px;
-    font-size: 48px;
-    color: #ffffff;
 }
 
 .bannerRight{
@@ -78,61 +93,69 @@ p{
 }
 
 h1{
-    padding-top: 185px;
+    margin-top: 185px;
     font-size: 48px;
     color: #ffffff;
     float: left;
 }
 
 h3{
-    padding-top: 25px;
-    font-size: 36px;
+    margin-top: 25px;
+    font-size: 35px;
     color: #ffffff;
     font-weight: normal;
     float: left;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
-button{
-    
+.banner .wrapper .bannerLeft a{
+    text-align: center;
+    line-height: 50px;
     width: 170px;
     height: 50px;
     margin-right: 20px;
-    font-family: SourceSansPro;
     font-size: 20px;
     float: left;
     border-radius: 3px;
+    font-family: Arial;
 }
 
 .firstButon{
     background: #f2f2f2;
+    color: #222222;
 }
 
 .secondButon{
     background: #ff9900;
+    color: #ffffff;
 }
 
 .poster{
-    padding-top: 50px;
-    padding-left: 50px;
+    margin-top: 45px;
+    margin-left: 50px;
 }
 
 .bodyHeader{
-    padding-top: 65px;
+    margin-top: 65px;
     font-size: 30px;
     color: #444444;
     text-align: center;
-    padding-bottom: 75px;
+    margin-bottom: 75px;
 }
 
 .circleSet{
+    color: #888888;
     margin-left: auto;
     margin-right: auto;
     width: 140px;
     float: left;
     padding-left: 60px;
     text-align: center;
-    
+}
+
+.circleSet a{
+    color: #888888;
+    text-align: center;
 }
 
 .circleSetLast{
@@ -140,7 +163,6 @@ button{
 }
 
 .circles{
-    
     height: 140px;
     width: 140px;
     border-radius: 50%;
@@ -149,4 +171,50 @@ button{
 
 .bodyImg{
     padding: 50px 40px;
+}
+
+#bodyEnd{
+     height: 115px;
+}
+
+.footer{
+    height: 160px;
+    background: #ececec;
+}
+
+.footerNavigation a{
+    font-size: 16px;
+    color: #ff8000;
+    float: left;
+    margin-top: 30px;
+    margin-right: 17px;
+}
+
+#footerHome{
+    color: #444444;
+}
+
+.socialNavigation{
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.lowerFooter{
+    margin-top: 15px;
+    color: #aaaaaa;
+}
+
+.lowerFooter ul li{
+    float: left;
+    padding: 0px 10px;
+}
+
+.lowerFooter ul li a{
+    color: #aaaaaa;
+}
+
+#copyRight{
+    padding-right: 64px;
+    padding-left: 0px;
 }
