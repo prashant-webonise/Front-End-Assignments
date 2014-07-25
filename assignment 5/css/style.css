@@ -1,0 +1,249 @@
+/* 
+    Created on : Jul 25, 2014, 11:17:49 AM
+    Author     : Hrishikesh
+*/
+
+*{
+    margin: 0px ;
+    padding: 0px ;
+}
+
+
+body{
+    font-family: 'Source Sans Pro', 'sans-serif', Arial, Helvetica, Georgia;
+    font-size: 18px;
+}
+
+@font-face 
+{
+        font-family: "Source Sans Pro";
+        src: url('../fonts/888244629-SourceSansPro-Regular.eot');
+        src: url('../fonts/888244629-SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/888244629-SourceSansPro-Regular.svg#Source Sans Pro') format('svg'),
+        url('../fonts/888244629-SourceSansPro-Regular.woff') format('woff'),
+        url('../fonts/888244629-SourceSansPro-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+
+
+li{
+    list-style: none;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    color: #666666;
+}
+
+.container{
+    width: 940px;
+    margin: 0px auto;
+}
+
+.header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo{
+    float: left;
+}
+
+.headerUl{
+    float: right;
+}
+
+.headerUl li{
+    margin-right: 36px;
+}
+
+.clear{
+    clear: both;
+    float: none;
+}
+
+.loginIcon{
+    border: 2px solid #ff8a00;
+    border-radius: 3px;
+}
+
+.banner{
+    background-image: url('../images/banner.jpg');
+    height: 610px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bannerText{
+    width: 470px;
+    margin-top: 50px;
+    //margin-right: 15px;
+    //margin-left: 324px;
+    font-size: 40px;
+    display: block;
+    padding-bottom: 41px;
+    line-height: 54px;
+}
+
+.insideBanner{
+    float: right;
+}
+
+.getStarted{
+    width: 220px;
+    background: #ff8a00;
+    border-radius: 3px;
+    color: white;
+    line-height: 55px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.bodyHeader{
+    font-size: 36px;
+    text-align: center;
+    display: block;
+    padding-bottom: 42px;
+}
+
+.thisBody{
+    background-color: #f0f0f0;
+    padding-top: 78px;
+    padding-bottom: 42px;
+}
+
+.thisBody .container ul li{
+    float: left;
+    width: 220px;
+    height: 161px;
+    margin-right: 15px;
+    padding-bottom: 28px;
+    margin-bottom: 15px;
+}
+
+.smallCircle{
+    margin-left: 88px;
+    margin-bottom: 15px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #ff8a00;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -165px;
+}
+
+.cilcleImage1{
+    background-image: url('../images/img1.png');
+}
+
+.cilcleImage2{
+    background-image: url('../images/img2.png');
+}
+
+.cilcleImage3{
+    background-image: url('../images/img3.png');
+}
+
+.cilcleImage4{
+    background-image: url('../images/img4.png');
+}
+
+.cilcleImage5{
+    background-image: url('../images/img5.png');
+}
+
+.cilcleImage6{
+    background-image: url('../images/img6.png');
+}
+
+.cilcleImage7{
+    background-image: url('../images/img7.png');
+}
+
+.cilcleImage8{
+    background-image: url('../images/img8.png');
+}
+
+h6{
+    padding-top: 23px;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 14px;
+}
+
+p{
+    font-size: 11px;
+    margin-left: 15px;
+    margin-right: 19px;
+    padding-bottom: 25px;
+}
+
+.listText{
+    background: white;
+    padding-top: 10px;
+    border-radius: 3px;
+    border-color: #e4e4e4;
+}
+
+#lastClear{
+    clear: both;
+    float: none;
+    width: 0px;
+    height: 0px;
+    margin-right: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer{
+    padding-top: 20px;
+    background: #555555;
+    padding-bottom: 200px;
+}
+
+.firstFooter{
+    margin-bottom: 50px;
+}
+
+h1{
+    color: #222222;
+}
+
+h2{
+    color: #444444;
+}
+
+h3{
+    color: white;
+    float: left; 
+    line-height: 55px;
+}
+
+.spacing{
+    margin-bottom: 22px;
+}
+
+.lastFooter ul{
+    float: left;
+}
+.lastFooter ul li{
+    margin-right: 19px;
+}
+
+.lastFooter ul li a{
+    color: white;
+    font-size: 18px;
+}
+
+#social{
+    float: right;
+    margin-top: 5px;
+}
+
+.socialNavigation{
+    float: left;
+}
