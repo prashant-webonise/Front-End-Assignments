@@ -26,6 +26,23 @@ body{
     font-size: 18px;
 }
 
+@font-face {
+    font-family: 'TitilliumWebBold';
+    src: url('../fonts/titiliumwebbold/titilliumweb-bold.eot');
+    src: url('../fonts/titiliumwebbold/titilliumweb-bold.eot') format('embedded-opentype'),
+         url('../fonts/titiliumwebbold/titilliumweb-bold.woff') format('woff'),
+         url('../fonts/titiliumwebbold/titilliumweb-bold.ttf') format('truetype'),
+         url('../fonts/titiliumwebbold/titilliumweb-bold.svg#TitilliumWebBold') format('svg');
+}
+
+@font-face {
+    font-family: 'TitilliumWebRegular';
+    src: url('../fonts/titiliumwebregular/titilliumweb-regular.eot');
+    src: url('../fonts/titiliumwebregular/titilliumweb-regular.eot') format('embedded-opentype'),
+         url('../fonts/titiliumwebregular/titilliumweb-regular.woff') format('woff'),
+         url('../fonts/titiliumwebregular/titilliumweb-regular.ttf') format('truetype'),
+         url('../fonts/titiliumwebregular/titilliumweb-regular.svg#TitilliumWebRegular') format('svg');
+}
 
 
 @font-face {
@@ -150,12 +167,15 @@ a{
 
 .header{
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
     font-family: open_sanssemibold;
 }
 
 .logo{
     float: left;
+    font-family: open_sanssemibold;
+    font-size: 14px;
+    height: 30px;
 }
 
 .headerUl{
@@ -163,7 +183,7 @@ a{
 }
 
 .headerUl li{
-    margin-right: 36px;
+    margin-right: 34px;
 }
 
 .clear{
@@ -178,16 +198,24 @@ a{
     padding-left: 11px;
     padding-right: 11px;
     color: #ff8a00;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.header .container ul li a{
+    font-family: open_sanssemibold;
+    font-size: 16px;
 }
 
 
 .banner{
     background: url('../images/banner.jpg') no-repeat center;
     background-size: cover;
+    height: 610px;
 }
 
 .bannerText{
-    width: 440px;
+    width: 420px;
     font-size: 40px;
     padding-bottom: 41px;
     line-height: 54px;
@@ -197,8 +225,8 @@ a{
 .insideBanner{
     float: right;
     margin-top: 50px;
-    margin-bottom: 324px;
 }
+
 
 .getStarted{
     background: #ff8a00;
@@ -219,19 +247,30 @@ a{
     font-family:ubuntulight;
 }
 
+.thisBody .container ul .lastLi{
+    margin-right: 0px;
+}
+
 .thisBody{
     background-color: #f0f0f0;
     padding-top: 78px;
     padding-bottom: 20px;
 }
 
-.thisBody .container ul li{
+.thisBody .container ul li{  
     position: relative;
     float: left;
-    width: 220px;
-    margin-right: 15px;
+    width: 190px;
+    margin-right: 20px;
     margin-bottom: 50px;
     font-family: Arial;
+    background: white;
+    padding-top: 50px;
+    border-radius: 3px;
+    border-color: #e4e4e4;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 22px;
 }
 
 .headerUl li #home{
@@ -296,7 +335,6 @@ a{
 }
 
 h6{
-    padding-top: 23px;
     margin-bottom: 14px;
     text-align: center;
     font-size: 14px;
@@ -307,18 +345,12 @@ h6{
 p{
     
 font-size: 11px;
-margin-left: 18px;
-margin-right: 18px;
-padding-bottom: 25px;
 color: #777777;
 word-break: break-all;
 }
 
 .listText{
-    background: white;
-    padding-top: 10px;
-    border-radius: 3px;
-    border-color: #e4e4e4;
+    
 }
 
 #lastClear{
@@ -326,9 +358,8 @@ word-break: break-all;
     float: none;
     width: 0px;
     height: 0px;
-    margin-right: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .footer{
@@ -358,10 +389,20 @@ h3{
     color: white;
     float: left; 
     line-height: 55px;
-    font-family: titilliumlight;
-    font-size: 23px;
+    
 }
 
+.footer .container .firstFooter h3{
+    font-weight: normal;
+    font-family: TitilliumWebRegular;
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+
+.footer .container .firstFooter .getStarted{
+    font-family: TitilliumWebBold;
+    font-size: 30px;
+}
 .spacing{
     margin-bottom: 22px;
 }
@@ -374,13 +415,14 @@ h3{
     //float: left;
 }
 .lastFooter ul li{
-    margin-right: 7px;
+    margin-right: 20px;
     font-size: 14px;
 }
 
 .lastFooter ul li a{
     color: white;
-    
+    font-family: TitilliumWebBold;
+    font-size: 18px;
 }
 
 #social{
@@ -388,19 +430,7 @@ h3{
     margin-top: 5px;
 }
 
-.socialNavigation{
-    float: left;
-}
 
-
-
-.socialNavigation a{
-    height: 30px;
-    width: 30px;
-    border-radius: 30px;
-    background-color: #777777;
-    position: relative;
-}
 
 .facebook{
     background-image: url("../images/newfacebook.png");
@@ -428,9 +458,34 @@ h3{
     margin-left: 0px;
     padding-bottom: 0px;
     float: left;
-    color: black
+    color: black;
+    font-family: TitilliumWebRegular;
+    //line-height: 28px;
+    margin-right: 20px;
 }
 
 .lastIcon{
     margin-right: 0px;
+}
+
+.footer .container .lastFooter .policy li{
+    margin-right: 0px;
+}
+
+.footer .container .lastFooter .policy li a{
+    font-size: 14px;
+    margin-right: 14px;
+}
+
+.footer .container .lastFooter #social li{
+    float: left;
+    margin-right: 7px;
+}
+
+.footer .container .lastFooter #social li a{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: #777777;
+    position: relative;
 }
