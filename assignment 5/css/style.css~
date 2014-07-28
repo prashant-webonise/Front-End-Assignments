@@ -346,6 +346,7 @@ word-break: break-all;
 
 h1{
     color: #222222;
+    font-weight: normal;
 }
 
 h2{
