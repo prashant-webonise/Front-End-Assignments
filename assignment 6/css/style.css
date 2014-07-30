@@ -1,0 +1,376 @@
+/* 
+    Created on : Jul 29, 2014, 4:58:31 PM
+    Author     : Hrishikesh
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'MinionProMedium';
+    src: url('../fonts/minionpro-medium.eot');
+    src: url('../fonts/minionpro-medium.eot') format('embedded-opentype'),
+         url('../fonts/minionpro-medium.woff') format('woff'),
+         url('../fonts/minionpro-medium.ttf') format('truetype'),
+         url('../fonts/minionpro-medium.svg#MinionProMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'MinionProRegular';
+    src: url('../fonts/minionpro-regular.eot');
+    src: url('../fonts/minionpro-regular.eot') format('embedded-opentype'),
+         url('../fonts/minionpro-regular.woff') format('woff'),
+         url('../fonts/minionpro-regular.ttf') format('truetype'),
+         url('../fonts/minionpro-regular.svg#MinionProRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'MinionPro';
+    src: url('../fonts/minionpro.eot');
+    src: url('../fonts/minionpro.eot') format('embedded-opentype'),
+         url('../fonts/minionpro.woff') format('woff'),
+         url('../fonts/minionpro.ttf') format('truetype'),
+         url('../fonts/minionpro.svg#MinionProRegular') format('svg');
+}
+
+
+
+@font-face {
+    font-family: 'oxygenbold';
+    src: url('../fonts/oxygen-bold-webfont.eot');
+    src: url('../fonts/oxygen-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oxygen-bold-webfont.woff') format('woff'),
+         url('../fonts/oxygen-bold-webfont.ttf') format('truetype'),
+         url('../fonts/oxygen-bold-webfont.svg#oxygenbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oxygenregular';
+    src: url('../fonts/oxygen-webfont.eot');
+    src: url('../fonts/oxygen-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oxygen-webfont.woff') format('woff'),
+         url('../fonts/oxygen-webfont.ttf') format('truetype'),
+         url('../fonts/oxygen-webfont.svg#oxygenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oxygenregular';
+    src: url('../fonts/oxygen-regular-webfont.eot');
+    src: url('../fonts/oxygen-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oxygen-regular-webfont.woff') format('woff'),
+         url('../fonts/oxygen-regular-webfont.ttf') format('truetype'),
+         url('../fonts/oxygen-regular-webfont.svg#oxygenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-family: Arial, Helvetica, Georgia;
+    font-size: 18px;
+}
+
+
+.container{
+    width: 940px;
+    margin: 0px auto;
+}
+
+.header{
+    padding-top: 6px;
+    padding-bottom: 4px;
+}
+
+.logo{
+    float: left;
+    background: url("../images/logo.png");
+    height: 45px;
+    width: 120px;
+}
+
+.clear{
+    clear: both;
+    float: none;
+}
+
+.social{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
+
+.social li{
+    float: left;
+    margin-right: 0px;
+    font-size: 0px;
+    margin-left: 5px;
+}
+
+.social li a{
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    background-color: #42aae4;
+    display: inline-block;
+}
+
+.facebook{
+    background: url("../images/newfacebook.png") center center no-repeat;
+}
+.twitter{
+    background: url("../images/newtwitter.png") center center no-repeat;
+}
+.palingro{
+    background: url("../images/newpalingro.png") center center no-repeat;
+}
+.googlePlus{
+    background: url("../images/newgoogle.png") center center no-repeat;
+}
+
+.nav{
+    float: right;
+    margin-right: 11px;
+    margin-top: 16px;
+    margin-bottom: 9px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav li{
+    float: left;
+}
+
+.nav li a{
+    color: #42aae4;
+    font-size: 14px;
+    margin-right: 26px;
+    font-family: oxygenbold;
+}
+
+li{
+    list-style: none;
+}
+
+.banner{
+    background: url("../images/banner.jpg") center center no-repeat;
+    height: 545px;
+    background-size: cover;
+}
+
+.bannerText{
+    float: right;
+    margin-top: 80px;
+    width: 348px;
+}
+
+h1{
+    font-size: 44px;
+    line-height: 36px;
+    word-spacing: 10px;
+    margin-bottom: 30px;
+    font-family: oxygenbold;
+    line-height: 36px;
+}
+
+h5{
+    font-size: 22px;
+    font-weight: normal;
+    font-family: minion_proregular;
+}
+
+.belowBanner{
+    background: #2e84b3;
+    padding-top: 19px;
+    padding-bottom: 21px;
+}
+
+.blueStrip li{
+    float: left;
+    width: 216px;
+    height: 60px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.blueStrip li a{
+    padding: 16px 13px 16px 19px;
+    display: block;
+    color: white;
+}
+
+#lastLi{
+    margin: 0px;
+}
+
+#lastClear{
+    clear: both;
+    float: none;
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+h3{
+    font-size: 22px;
+    font-weight: normal;
+    display: inline-block;
+    font-family: oxygenregular;
+    line-height: 28px;
+}
+
+.arrow{
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    border: 2px solid white;
+    float: right;
+    background: url("../images/arrow.png") center center no-repeat;
+}
+
+.thisBody{
+    padding-top: 66px;
+    padding-bottom: 70px;
+}
+
+h2{
+    color: #42aae4;
+    font-size: 40px;
+    font-family: oxygenbold;
+    margin-bottom: 22px;
+}
+
+.happenings li{
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+    background: #2e84b3;
+    padding-bottom: 21px;
+    color: white;
+}
+
+#clear{
+    clear: both;
+    float: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+h4{
+    margin-left: 15px;
+    margin-bottom: 9px;
+    font-family: oxygenbold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+p{
+    font-size: 14px;
+    margin-left: 15px;
+    margin-bottom: 9px;
+    font-family: MinionProRegular;
+}
+
+.date{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 9px;
+    font-family: oxygenregular;
+    font-size: 11px;
+}
+
+.footer{
+    padding-top: 29px;
+    padding-bottom: 128px;
+    background: #444444;
+}
+
+.footer a{
+    color: #d8d8d8;
+    line-height: 14px;
+    font-family: MinionProRegular;
+    font-size: 14px;
+}
+
+.footerMainUl{
+    float: left;
+    width: 186px;
+    margin-bottom: 29px;
+}
+
+
+.footer .container .footerUl li{
+    float: none;
+    margin: 0px;
+}
+
+.boldF{
+    font-weight: bold;
+}
+
+.footer .container .footerSubUl li{
+    float: left;
+    border-right: 1px solid #ffffff;
+    font-size: 12px;
+    margin-right: 8px;
+    padding-right: 8px;
+}
+
+.footerSubUl{
+    margin-left: 196px;
+    margin-bottom: 13px;
+}
+
+#subscription{
+    border: 0px;
+}
+
+.copyRight{
+    text-align: center;
+    font-size: 12px;
+    color: #aaaaaa;
+    display: block;
+}
+
+.mainUlDiv{
+     border-bottom: 1px solid #535353;;
+     margin-bottom: 20px;
+}
+
+.insideLi{
+    margin-top: 29px;
+}
+
+.liHead{
+    margin-left: 6px;
+    color: #aaaaaa;
+}
+
+.footerSubUl a{
+    font-family: oxygenbold;
+    font-size: 12px;
+}
+
+.liHead a{
+    font-family: oxygenbold;
+    
+    line-height: 14px;
+}
