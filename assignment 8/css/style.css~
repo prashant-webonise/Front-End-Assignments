@@ -187,7 +187,7 @@ li{
 
 .redStrip  ul li a{
     color: #660000;
-    padding: 11px;
+    padding: 11px 13px 11px 11px;
     display: block;
     border: 1px solid #dd0000;
     background: url("../images/sprite.png")no-repeat 0px -50px;
@@ -671,7 +671,6 @@ h5{
 
 .policy li{
     float: left;
-    border-bottom: 0px;
     border-right: 2px solid #c1c1c1;
     padding: 0px;
     margin-right: 4px;
