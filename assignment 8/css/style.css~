@@ -671,6 +671,7 @@ h5{
 
 .policy li{
     float: left;
+    border-bottom: 0px;
     border-right: 2px solid #c1c1c1;
     padding: 0px;
     margin-right: 4px;
