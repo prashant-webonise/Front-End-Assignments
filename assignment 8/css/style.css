@@ -247,20 +247,33 @@ form{
     outline: none;
 }
 
-.start{
-    border-right: 0px;
+.priceRange2{
+        background-color: white;
+    height: 12px;
+    border: 1px solid #cccccc;
+margin-top: 8px;
+    float: left;
+    width : 260px;
 }
+
+.priceRange2 img{
+    background: url("../images/rangeSprite.png") no-repeat 0px 0px;
+}
+
+//.start{
+//    border-right: 0px;
+//}
 
 .end{
     border-left: 0px;
 }
 
 .start::-webkit-slider-thumb{
-    background: url("../images/rangeSprite.png") no-repeat 0px 0px;
+    //background: url("../images/rangeSprite.png") no-repeat 0px 0px;
 }
 
 .end::-webkit-slider-thumb{
-    background: url("../images/rangeSprite.png") no-repeat 0px -90px;
+    //background: url("../images/rangeSprite.png") no-repeat 0px -90px;
 }
 
 .priceRange::-webkit-slider-thumb{
